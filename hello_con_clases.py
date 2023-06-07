@@ -16,4 +16,4 @@ class Ventana(tk.Tk):
     def imprimir_saludo(self):
         self.label.config(text=f"Hola, {self.valor_nombre.get()}")
 
-Ventana().mainloop() #"hazemos que se instancie" 
+#Ventana().mainloop() #"hazemos que se instancie" 
